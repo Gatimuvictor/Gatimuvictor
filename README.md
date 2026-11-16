@@ -14,8 +14,17 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=Laravel+%26+Django+systems+built+for+production;Database+administration%3A+MySQL+%C2%B7+PostgreSQL+%C2%B7+SQL+Server;Dynamics+365+Business+Central+extensions+in+AL;ERP%2C+POS+and+integration+platforms" alt="What I build" />
   <br>
   <img src="https://komarev.com/ghpvc/?username=Gatimuvictor&label=Profile%20views&color=58a6ff&style=flat-square" alt="Profile views" />
-  <a href="https://victordevsystems.com"><img src="https://img.shields.io/badge/VictordevTech_LTD-victordevsystems.com-0d1117?style=flat-square&labelColor=58a6ff" alt="VictordevTech LTD" /></a>
+  <a href="https://victordevsystems.com"><img src="https://img.shields.io/badge/VictordevTech_LTD-victordevsystems.com-1f6feb?style=flat-square&labelColor=30363d" alt="VictordevTech LTD" /></a>
 </p>
+
+## About me
+
+- 🏢 **Founder of [VictordevTech LTD](https://victordevsystems.com)**, a software company building enterprise systems
+- 🔭 I build ERP, POS, finance, HR/payroll and integration platforms
+- 🐘 Backend: **Laravel (PHP)** and **Django (Python)** with REST APIs
+- 🗄️ Full database administration: design, tuning, backup and recovery, replication, security
+- 📊 **Microsoft Dynamics 365 Business Central**: AL extensions, APIs and integrations
+- 📫 Reach me: **gatimujohn98@gmail.com**
 
 ## What I build
 
