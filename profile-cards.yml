@@ -1,0 +1,59 @@
+name: Refresh profile cards
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"   # every 6 hours
+  workflow_dispatch:          # "Run workflow" button
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile-cards.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build banner and expertise cards
+        run: node scripts/build-static.mjs
+
+      - name: Build stats, activity and language cards
+        run: node scripts/generate-cards.mjs
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+
+      - name: Build contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            generated/snake-dark.svg?palette=github-dark&color_snake=#58a6ff
+            generated/snake-light.svg?palette=github-light&color_snake=#0969da
+
+      - name: Commit updated cards
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets generated
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: refresh profile cards"
+            git push
+          fi
