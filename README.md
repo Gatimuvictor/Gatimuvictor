@@ -1,28 +1,31 @@
-<h1 align="center">Hi, I'm John Victor Gatimu 👋</h1>
-<h3 align="center">Full Stack Systems Developer | Laravel · Django · Database Administration · Dynamics 365 Business Central</h3>
+<!--
+  Profile README for github.com/Gatimuvictor
+  Graphics in assets/ and generated/ are vector SVGs built by
+  .github/workflows/profile-cards.yml (refreshed every 6 hours).
+-->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
+  <img alt="John Victor Gatimu, Full Stack Systems Developer" src="./assets/header-dark.svg" width="100%">
+</picture>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=2F81F7&center=true&vCenter=true&width=700&lines=Laravel+%26+Django+Full+Stack+Developer;Database+Administrator+(MySQL+%7C+PostgreSQL+%7C+SQL+Server);Dynamics+365+Business+Central+Developer+(AL);Building+ERP%2C+POS+and+Enterprise+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=Laravel+%26+Django+systems+built+for+production;Database+administration%3A+MySQL+%C2%B7+PostgreSQL+%C2%B7+SQL+Server;Dynamics+365+Business+Central+extensions+in+AL;ERP%2C+POS+and+integration+platforms" alt="What I build" />
+  <br>
+  <img src="https://komarev.com/ghpvc/?username=Gatimuvictor&label=Profile%20views&color=58a6ff&style=flat-square" alt="Profile views" />
+  <a href="https://victordevsystems.com"><img src="https://img.shields.io/badge/VictordevTech_LTD-victordevsystems.com-0d1117?style=flat-square&labelColor=58a6ff" alt="VictordevTech LTD" /></a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Gatimuvictor&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-</p>
+## What I build
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/expertise-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/expertise-light.svg">
+  <img alt="Laravel development, Django development, database administration, Dynamics 365 Business Central" src="./assets/expertise-dark.svg" width="100%">
+</picture>
 
-## 🧑‍💻 About Me
-
-- 🏢 Founder at **VictordevTech LTD** · [victordevsystems.com](https://victordevsystems.com)
-- 🔭 I build enterprise systems: ERP, POS, finance, HR/payroll and integration platforms
-- 🐘 Backend: **Laravel (PHP)** and **Django (Python)** with REST APIs
-- 🗄️ Full database administration: design, tuning, backup and recovery, replication, security
-- 📊 **Microsoft Dynamics 365 Business Central**: AL extensions, APIs and integrations
-- 📫 Reach me: **gatimujohn98@gmail.com**
-
----
-
-## 🛠️ Tech Stack
+## Tech stack
 
 **Backend frameworks and languages**
 
@@ -92,34 +95,33 @@
   <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
 </p>
 
----
+## GitHub at a glance
 
-## 📊 GitHub Stats
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./generated/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./generated/stats-light.svg">
+  <img alt="Contributions, streaks, active days and repositories" src="./generated/stats-dark.svg" width="100%">
+</picture>
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Gatimuvictor&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gatimuvictor&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./generated/activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./generated/activity-light.svg">
+  <img alt="Weekly contribution activity over the last year" src="./generated/activity-dark.svg" width="100%">
+</picture>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Gatimuvictor&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./generated/languages-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./generated/languages-light.svg">
+  <img alt="Most used languages" src="./generated/languages-dark.svg" width="100%">
+</picture>
 
-## 📈 Contribution Graph
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./generated/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./generated/snake-light.svg">
+  <img alt="Contribution graph animation" src="./generated/snake-dark.svg" width="100%">
+</picture>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Gatimuvictor&theme=tokyo-night&hide_border=true&area=true" width="100%" />
-</p>
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Gatimuvictor&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" />
-</p>
-
----
-
-## 🌐 Connect With Me
+## Connect
 
 <p>
   <a href="https://victordevsystems.com"><img src="https://img.shields.io/badge/Website-victordevsystems.com-0e75b6?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
